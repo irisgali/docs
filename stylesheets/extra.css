@@ -12,6 +12,8 @@
 .md-footer-nav {
     /* background-image: url(../assets/images/second-nav-blue.png); */
     background-color: rgb(0, 76, 117) !important;
+
+    /* max-height: 90px; */
 }
 
 .md-footer-meta {

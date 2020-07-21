@@ -1,214 +1,214 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>None</loc>
+     <loc>https://run.ai/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Cluster-Setup/Cluster-Setup-Start-Here/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Cluster-Setup/Run-AI-GPU-Cluster-Prerequisites/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Cluster-Setup/Installing-Run-AI-on-an-on-premise-Kubernetes-Cluster/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Cluster-Setup/Troubleshooting-a-Run-AI-Cluster-Installation/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Cluster-Setup/Upgrading-Cluster-Install/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Cluster-Setup/Deleting-Cluster-Install/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Cluster-Setup/Exposing-Cluster-Services-via-Ingress/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Cluster-Setup/Exposing-Ports-from-Researcher-Containers-using-Ingress/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Cluster-Setup/Installing-Run-AI-with-an-Internet-Proxy-Server-/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Cluster-Setup/Kubernetes-Cluster-Configuration-Best-Practices/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Cluster-Setup/Use-OpenID-Connect-LDAP-or-SAML-for-Authentication-and-Authorization-/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Researcher-Setup/Researcher-Setup-Start-Here/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Researcher-Setup/Installing-the-Run-AI-Command-Line-Interface/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Researcher-Setup/Troubleshooting-a-CLI-installation/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Researcher-Setup/Limit-a-Workload-to-a-Specific-Node-Group/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Researcher-Setup/Using-a-Docker-Registry-with-Credentials/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Researcher-Setup/Switch-from-working-with-Docker-to-working-with-Run-AI-/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Researcher-Setup/Limit-the-Run-AI-Scheduler-to-Specific-GPUs-in-Specific-Nodes/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Researcher-Setup/Configure-Command-Line-Interface-Templates/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Presentations/Administrator-Onboarding-Presentation/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Admin-User-Interface-Setup/Working-with-Projects/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Admin-User-Interface-Setup/Adding-Updating-and-Deleting-Admin-UI-Users/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Administrator/Miscellaneous/Launch-Workloads-using-Rancher-User-Interface/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Walkthroughs/Run-AI-Walkthroughs/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Walkthroughs/Walkthrough-Start-and-Use-Interactive-Build-Workloads-/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Walkthroughs/Walkthrough-Launch-an-Interactive-Build-Workload-with-Connected-Ports/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Walkthroughs/Walkthrough-Launch-Unattended-Training-Workloads-/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Walkthroughs/Walkthrough-Using-GPU-Fractions/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Walkthroughs/Walkthrough-Running-Distributed-Training/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface-API-Reference/Introduction/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface-API-Reference/runai-bash/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface-API-Reference/runai-exec/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface-API-Reference/runai-delete/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface-API-Reference/runai-get/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface-API-Reference/runai-list/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface-API-Reference/runai-logs/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface-API-Reference/runai-submit/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface-API-Reference/runai-submit-mpi/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface-API-Reference/runai-top-node/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface-API-Reference/runai-update/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface-API-Reference/runai-template/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Command-Line-Interface/Automatically-Delete-Jobs-After-Job-Finish/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Image-Creation-Best-Practices/From-Bare-Metal-to-using-Docker-Images/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Image-Creation-Best-Practices/Converting-your-Workload-to-use-Unattended-Training-Execution/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Image-Creation-Best-Practices/Saving-Deep-Learning-Checkpoints/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Presentations/Researcher-Onboarding-Presentation/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Scheduling/Allocation-of-CPU-and-Memory/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Scheduling/The-Run-AI-Scheduler/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Run-AI-Researcher-Library/The-Run-AI-Researcher-Library/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Run-AI-Researcher-Library/Elasticity-Dynamically-Stretch-Compress-Jobs-According-to-GPU-Availability/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Researcher/Run-AI-Researcher-Library/Reporting-via-the-Run-AI-Researcher-Library-/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://run.ai/Product/Whats-New/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url>

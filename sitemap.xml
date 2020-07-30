@@ -88,15 +88,15 @@
      <lastmod>2020-07-30</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://run.ai/Administrator/Presentations/Administrator-Onboarding-Presentation/</loc>
-     <lastmod>2020-07-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://run.ai/Administrator/Admin-User-Interface-Setup/Working-with-Projects/</loc>
      <lastmod>2020-07-30</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://run.ai/Administrator/Admin-User-Interface-Setup/Adding-Updating-and-Deleting-Admin-UI-Users/</loc>
+     <lastmod>2020-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://run.ai/Administrator/Presentations/Administrator-Onboarding-Presentation/</loc>
      <lastmod>2020-07-30</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -176,14 +176,6 @@
      <lastmod>2020-07-30</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://run.ai/Researcher/Command-Line-Interface/Job-Statuses/</loc>
-     <lastmod>2020-07-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://run.ai/Researcher/Command-Line-Interface/Automatically-Delete-Jobs-After-Job-Finish/</loc>
-     <lastmod>2020-07-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://run.ai/Researcher/Image-Creation-Best-Practices/From-Bare-Metal-to-using-Docker-Images/</loc>
      <lastmod>2020-07-30</lastmod>
      <changefreq>daily</changefreq>
@@ -205,6 +197,14 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://run.ai/Researcher/Scheduling/The-Run-AI-Scheduler/</loc>
+     <lastmod>2020-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://run.ai/Researcher/Scheduling/Job-Statuses/</loc>
+     <lastmod>2020-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://run.ai/Researcher/Scheduling/Automatically-Delete-Jobs-After-Job-Finish/</loc>
      <lastmod>2020-07-30</lastmod>
      <changefreq>daily</changefreq>
     </url><url>

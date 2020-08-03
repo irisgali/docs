@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>https://docs.run.ai/</loc>
+     <loc>https://docs.run.ai/home/</loc>
      <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.run.ai/whats-new/</loc>
+     <loc>https://docs.run.ai/home/architecture/</loc>
+     <lastmod>2020-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/home/whats-new/</loc>
      <lastmod>2020-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>

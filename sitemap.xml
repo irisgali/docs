@@ -28,10 +28,6 @@
      <lastmod>2020-08-05</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.run.ai/Administrator/Cluster-Setup/Troubleshooting-a-Run-AI-Cluster-Installation/</loc>
-     <lastmod>2020-08-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/Upgrading-Cluster-Install/</loc>
      <lastmod>2020-08-05</lastmod>
      <changefreq>daily</changefreq>
@@ -40,7 +36,7 @@
      <lastmod>2020-08-05</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.run.ai/Administrator/Cluster-Setup/Exposing-Cluster-Services-via-Ingress/</loc>
+     <loc>https://docs.run.ai/Administrator/Cluster-Setup/Troubleshooting-a-Run-AI-Cluster-Installation/</loc>
      <lastmod>2020-08-05</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -49,10 +45,6 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/Installing-Run-AI-with-an-Internet-Proxy-Server-/</loc>
-     <lastmod>2020-08-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://docs.run.ai/Administrator/Cluster-Setup/Kubernetes-Cluster-Configuration-Best-Practices/</loc>
      <lastmod>2020-08-05</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -65,6 +57,10 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/enforce-run-as-user/</loc>
+     <lastmod>2020-08-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/Administrator/Cluster-Setup/Kubernetes-Cluster-Configuration-Best-Practices/</loc>
      <lastmod>2020-08-05</lastmod>
      <changefreq>daily</changefreq>
     </url><url>

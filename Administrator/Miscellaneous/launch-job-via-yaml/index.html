@@ -29,11 +29,6 @@
 </code></pre></div> <h3 id=using-fractional-gpus>Using Fractional GPUs<a class=headerlink href=#using-fractional-gpus title="Permanent link">&para;</a></h3> <p>Jobs with Fractions has a slightly different YAML. Specifically the limits section</p> <div class=codehilite><pre><span></span><code><span class=n>limits</span><span class=o>:</span>
   <span class=n>nvidia</span><span class=o>.</span><span class=na>com</span><span class=o>/</span><span class=n>gpu</span><span class=o>:</span> <span class=o>&lt;</span><span class=n>REQUESTED</span><span class=o>-</span><span class=n>GPUs</span><span class=o>&gt;</span>
 </code></pre></div> <p>should be omitted and replaced with:</p> <div class=codehilite><pre><span></span><code><span class=n>spec</span><span class=o>:</span>
-  <span class=n>serviceName</span><span class=o>:</span> <span class=n>hyper2</span>
-  <span class=n>replicas</span><span class=o>:</span> <span class=mi>1</span>
-  <span class=n>selector</span><span class=o>:</span>
-    <span class=n>matchLabels</span><span class=o>:</span>
-      <span class=n>release</span><span class=o>:</span> <span class=n>hyper2</span>
   <span class=n>template</span><span class=o>:</span>
     <span class=n>metadata</span><span class=o>:</span>
       <span class=n>annotations</span><span class=o>:</span>

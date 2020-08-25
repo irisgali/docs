@@ -14,7 +14,7 @@
 </code></pre></div> <p>By default, you will have 30 seconds to save your checkpoints.</p> <h2 id=resuming-using-saved-checkpoints>Resuming using Saved Checkpoints<a class=headerlink href=#resuming-using-saved-checkpoints title="Permanent link">&para;</a></h2> <p>A Run:AI unattended workload that is resumed, will run the <strong>same startup script</strong> as on the first run. It is the responsibility of the script developer to add code that:</p> <ul> <li>Checks if saved checkpoints exist</li> <li>If saved checkpoints exist, load them and start the run using these checkpoints</li> </ul> <hr> <div class=md-source-date> <small> Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 23, 2020</span> </small> </div> </article> </div> </div> </main> </div> <script src=../../../assets/javascripts/vendor.d710d30a.min.js></script> <script src=../../../assets/javascripts/bundle.b39636ac.min.js></script><script id=__lang type=application/json>{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script> <script>
         app = initialize({
           base: "../../..",
-          features: ["tabs"],
+          features: ["tabs", "search.highlight"],
           search: Object.assign({
             worker: "../../../assets/javascripts/worker/search.a68abb33.min.js"
           }, typeof search !== "undefined" && search)

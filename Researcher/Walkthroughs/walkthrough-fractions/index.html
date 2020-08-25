@@ -8,7 +8,7 @@
 </code></pre></div> <p>The result:</p> <p><img alt=mceclip32.png src=../img/mceclip32.png></p> <p>Notes:</p> <ul> <li>The total memory is circled in red. It should be 50% of the GPUs memory size. In the picture above we see 8GB which is half of the 16GB of Tesla V100 GPUs.</li> <li>The script running on the container is limited by 8GB. In this case, TensorFlow, which tends to allocate almost all of the GPU memory has allocated 7.7GB RAM (and not close to 16 GB). Overallocation beyond 8GB will lead to an out-of-memory exception</li> </ul> <hr> <div class=md-source-date> <small> Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 24, 2020</span> </small> </div> </article> </div> </div> </main> </div> <script src=../../../assets/javascripts/vendor.d710d30a.min.js></script> <script src=../../../assets/javascripts/bundle.b39636ac.min.js></script><script id=__lang type=application/json>{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script> <script>
         app = initialize({
           base: "../../..",
-          features: ["tabs"],
+          features: ["tabs", "search.highlight"],
           search: Object.assign({
             worker: "../../../assets/javascripts/worker/search.a68abb33.min.js"
           }, typeof search !== "undefined" && search)

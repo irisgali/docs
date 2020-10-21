@@ -1,5 +1,8 @@
 FROM python:3.7.0
 
+# install OpenCV Python
+RUN pip install opencv-contrib-python
+
 # set up SSH daemon (based on https://docs.docker.com/engine/examples/running_ssh_service/)
 RUN apt-get update && apt-get install -y openssh-server
 RUN mkdir /var/run/sshd

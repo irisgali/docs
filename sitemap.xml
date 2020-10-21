@@ -283,5 +283,9 @@
      <loc>https://docs.run.ai/Researcher/tools/dev-pycharm/</loc>
      <lastmod>2020-10-21</lastmod>
      <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/Researcher/tools/dev-x11forward-pycharm/</loc>
+     <lastmod>2020-10-21</lastmod>
+     <changefreq>daily</changefreq>
     </url>
 </urlset>

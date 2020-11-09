@@ -5,10 +5,10 @@ from airflow.operators.dummy_operator import DummyOperator
 
 
 default_args = {
-    'owner': 'airflow',
+    'owner': 'runai',
     'depends_on_past': False,
     'start_date': datetime.utcnow(),
-    'email': ['airflow@example.com'],
+    'email': ['itay@run.ai'],
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,

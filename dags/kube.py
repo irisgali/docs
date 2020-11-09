@@ -21,8 +21,8 @@ dag = DAG(
     schedule_interval=timedelta(minutes=10))
 
 resources = {
-  limits: {
-    nvidia.com/gpu: 1
+  "limits": {
+    "nvidia.com/gpu": 1
   }
 }
 
@@ -32,8 +32,8 @@ job = KubernetesPodOperator(namespace='default',
                           name="train1",
                           task_id="train1",
                           get_logs=True,
-                          schedulername: "runai-scheduler",
-                          resources: resources,
+                          schedulername="runai-scheduler",
+                          resources=resources,
                           dag=dag
                           )
 

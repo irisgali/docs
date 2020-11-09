@@ -21,9 +21,7 @@ dag = DAG(
     schedule_interval=timedelta(minutes=10))
 
 resources = {
-  "limits": {
-    "nvidia.com/gpu": 1
-  }
+  "limit_gpu": 1
 }
 
 job = KubernetesPodOperator(namespace='default',

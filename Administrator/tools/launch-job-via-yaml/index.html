@@ -44,7 +44,7 @@
           <span class=nt>resources</span><span class=p>:</span>
             <span class=nt>limits</span><span class=p>:</span>
               <span class=nt>nvidia.com/gpu</span><span class=p>:</span> <span class="l l-Scalar l-Scalar-Plain">&lt;REQUESTED-GPUs&gt;</span>
-</code></pre></div> <p>The YAML above contains a default command and arguments (<code>sleep --inifinty</code>) which you can replace.</p> <p>Run:</p> <div class=codehilite><pre><span></span><code><span class=err>kubectl apply -f &lt;FILE-NAME&gt;</span>
+</code></pre></div> <p>The YAML above contains a default command and arguments (<code>sleep infinity</code>) which you can replace.</p> <p>Run:</p> <div class=codehilite><pre><span></span><code><span class=err>kubectl apply -f &lt;FILE-NAME&gt;</span>
 </code></pre></div> <p>to submit the job.</p> <!-- comment
 
 ### Using Fractional GPUs
@@ -74,7 +74,7 @@ should be omitted and replaced with:
 where "0.5" is the requested GPU fraction.
 --> <h2 id=delete-workloads>Delete Workloads<a class=headerlink href=#delete-workloads title="Permanent link">&para;</a></h2> <p>To delete a Run:AI workload you need to delete the Job or StatefulSet according to the workload type</p> <div class=codehilite><pre><span></span><code><span class=err>kubectl delete job &lt;JOB-NAME&gt;</span>
 </code></pre></div> <p>or: </p> <div class=codehilite><pre><span></span><code><span class=err>kubectl delete sts &lt;STS-NAME&gt;</span>
-</code></pre></div> <hr> <div class=md-source-date> <small> Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 3, 2020</span> </small> </div> </article> </div> </div> </main> </div> <script src=../../../assets/javascripts/vendor.6a3d08fc.min.js></script> <script src=../../../assets/javascripts/bundle.71201edf.min.js></script><script id=__lang type=application/json>{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script> <script>
+</code></pre></div> <hr> <div class=md-source-date> <small> Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 9, 2020</span> </small> </div> </article> </div> </div> </main> </div> <script src=../../../assets/javascripts/vendor.6a3d08fc.min.js></script> <script src=../../../assets/javascripts/bundle.71201edf.min.js></script><script id=__lang type=application/json>{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script> <script>
         app = initialize({
           base: "../../..",
           features: ['navigation.tabs'],

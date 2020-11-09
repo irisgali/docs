@@ -20,20 +20,22 @@ dag = DAG(
     default_args=default_args,
     schedule_interval=timedelta(minutes=10))
 
-
-start = DummyOperator(task_id='start', dag=dag)
+resources = {
+  limits: {
+    nvidia.com/gpu: 1
+  }
+}
 
 job = KubernetesPodOperator(namespace='default',
-                          image="python:3.6",
-                          cmds=["python","-c"],
-                          arguments=["print('hello world')"],
-                          labels={"foo": "bar"},
-                          name="passing-test",
-                          task_id="passing-task",
+                          image="gcr.io/run-ai-lab/quickstart",
+                          labels={"project": "airflow"},
+                          name="train1",
+                          task_id="train1",
                           get_logs=True,
+                          schedulername: "runai-scheduler",
+                          resources: resources,
                           dag=dag
                           )
 
 
 
-job.set_upstream(start)

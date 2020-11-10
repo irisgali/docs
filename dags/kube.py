@@ -18,7 +18,7 @@ default_args = {
 dag = DAG(
     'runai_job',
     default_args=default_args,
-    schedule_interval=timedelta(minutes=10))
+    schedule_interval=None)
 
 resources = {
   "limit_gpu": 1

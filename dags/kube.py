@@ -29,10 +29,9 @@ job = KubernetesPodOperator(namespace='default',
                           labels={"project": "airflow"},
                           name="train1",
                           task_id="train1",
-                          get_logs=True,
+                          get_logs=False,
                           schedulername="runai-scheduler",
                           resources=resources,
-                          get_logs=True,
                           dag=dag
                           )
 

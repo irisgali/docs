@@ -32,6 +32,7 @@ job = KubernetesPodOperator(namespace='default',
                           get_logs=True,
                           schedulername="runai-scheduler",
                           resources=resources,
+                          get_logs=True,
                           dag=dag
                           )
 

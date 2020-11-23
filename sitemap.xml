@@ -307,5 +307,9 @@
      <loc>https://docs.run.ai/Researcher/tools/dev-jupyter/</loc>
      <lastmod>2020-11-23</lastmod>
      <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/Researcher/tools/dev-tensorboard/</loc>
+     <lastmod>2020-11-23</lastmod>
+     <changefreq>daily</changefreq>
     </url>
 </urlset>

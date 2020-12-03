@@ -10,7 +10,7 @@
       <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">--oidc-issuer-url=https://runai-prod.auth0.com/</span>
       <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">--oidc-client-id=&lt;CLIENT_ID&gt;</span>
       <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">--oidc-client-secret=&lt;CLIENT_SECRET&gt;</span>
-      <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">--grant-type=password</span>
+ <span class=c1>###     - --grant-type=password</span>
       <span class=nt>command</span><span class=p>:</span> <span class="l l-Scalar l-Scalar-Plain">kubectl</span>
       <span class=nt>env</span><span class=p>:</span> <span class="l l-Scalar l-Scalar-Plain">null</span>
 </code></pre></div> <p>Where <code>&lt;USER_NAME&gt;</code> is an arbitrary name which is also referred to under <code>contexts | context | user</code> in the same file.</p> <h2 id=server-side>Server-Side<a class=headerlink href=#server-side title="Permanent link">&para;</a></h2> <p>Locate the Kubernetes API Server configuration file. The file's location may defer between different Kubernetes distributions. The default location is <code>/etc/kubernetes/manifests/kube-apiserver.yaml</code></p> <p>Add the following: </p> <div class=codehilite><pre><span></span><code> <span class=nt>spec</span><span class=p>:</span>

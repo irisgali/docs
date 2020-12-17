@@ -6,6 +6,16 @@ However, there is no equivalent Docker flag for allocating a specified amount of
 
 _Run:AI docker_ is the community edition of the _Run:AI orchestration and virtualization platform_ 
 
+The command `runai-docker` is a wrapper on top of `docker` with additional support for GPU memory virtualization.
+Any `docker` command would work as-is with `runai-docker`.
+
+## How it Works
+GPU memory virtualization enables exposing containers to only a portion of the GPU memory.
+
+An application sees only a portion of the total GPU memory. Furthermore, the container cannot exceed the amount of memory they should use. Trying to allocate more memory than deserved would fail. This makes it impossible for containers to exceed their share and cause failures to other containers.
+
+When running the command `nvidia-smi` inside the container, it show only the allotted portion of the GPU memory.
+
 
 ## Example
 

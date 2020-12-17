@@ -26,7 +26,10 @@ Before stopping a node, perform the following:
 * Force all services that _have a state_ to move to another node:
 
         kubectl scale sts --all --replicas=0  -n runai
+        kubectl delete pvc --all -n runai
         kubectl scale sts --all --replicas=1  -n runai  
+
+MIGRATE YAML  kubectl apply -f https://docs.run.io/ yaml migration
 
 > On GPU Workers this will move Interactive workloads to another node if possible. 
 

@@ -1,4 +1,4 @@
-Follow the following process to install `runai-docker`.
+Follow the process below to install `runai-docker`.
 
 
 ## Prerequisites

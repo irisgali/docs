@@ -167,5 +167,7 @@ nav:
   - 'Community Edition' :
      - 'Overview' : 'community/overview.md'
      - 'Installation' : 'community/install.md'
+     - 'Reference' : 'community/flags.md'
+     - 'Environment Variables' : 'community/env.md'
       
 

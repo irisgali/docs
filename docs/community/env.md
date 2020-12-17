@@ -1,4 +1,3 @@
-### Environment Variables
 
 
 `RUNAI_HOME` - Specifies the daemon shared directory. The default directory is `/var/runai`.

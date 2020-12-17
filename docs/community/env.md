@@ -1,16 +1,8 @@
 ### Environment Variables
----
-`RUNAI_HOME`
 
-Specifies the daemon shared directory.
-The directory `/var/runai` is used by default.
 
----
-`RUNAI_DOCKER`
+`RUNAI_HOME` - Specifies the daemon shared directory. The default directory is `/var/runai`.
 
-Specifies the program to execute. `docker` is used by default.
+`RUNAI_DOCKER` - Specifies the program to execute. The default program is `docker`.
 
----
-`RUNAI_DOCKER_NO_CLEANUP`
-
-Don't remove temporary files at the end.
+`RUNAI_DOCKER_NO_CLEANUP` - Do not remove temporary files at the end. Default is false.

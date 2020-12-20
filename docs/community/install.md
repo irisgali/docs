@@ -35,7 +35,7 @@ To allow containers to allocate only a portion of GPU memory, use `runai-docker 
 The specified value could be one of the following:
 
 * An absolute amount of GPU memory. Use the suffix `b` for bytes, `k` for kilobytes, `m` for megabytes and `g` for gigabytes (e.g. `--gpu-memory 3g` or `--gpu-memory 6543m`).
-* A portion of the GPU. A floating point number which must be greater than 0 and smaller than or equal to 1.0 (e.g. `--gpu-memory 0.25` to make a container accessible to a quarter of the GPU memory).
+* A fraction of the GPU. A floating point number which must be greater than 0 and smaller than or equal to 1.0 (e.g. `--gpu-memory 0.25` to make a container accessible to a quarter of the GPU memory).
 
 GPU memory queries from within the container will show information only about its portion.
 GPU memory allocations from any application in the container will be allowed only if it does not exceed the specified portion.

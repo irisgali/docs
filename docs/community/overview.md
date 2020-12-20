@@ -1,10 +1,10 @@
 # Overview
 
-[Docker](https://www.docker.com/){target=_blank} allows the allocation of a specified amount of __CPU__ memory for a container. This is achieved by specifying the required memory as a flag. E.g., `docker run --memory 1GB`.
+[Docker](https://www.docker.com/){target=_blank} allows the allocation of a specified amount of __CPU__ memory for a container. This is achieved by specifying the required memory as a flag. E.g., `docker run --memory 1g`.
 
-However, there is no equivalent Docker flag for allocating a specified amount of __GPU__ memory. _Run:AI Docker_ is an extension of Docker that allows the user to isolate a portion of the GPU memory for a specific container.
+However, there is no equivalent Docker flag for allocating a specified amount of __GPU__ memory. _Run:AI Docker_ is an extension of Docker that allows the user to isolate a portion of a GPU or a certain amount of GPU memory for a specific container.
 
-_Run:AI docker_ is the community edition of the _Run:AI orchestration and virtualization platform_ 
+_Run:AI docker_ is the community edition of the _Run:AI orchestration and virtualization platform_
 
 The command `runai-docker` is a wrapper on top of `docker` with additional support for GPU memory virtualization.
 Any `docker` command would work as-is with `runai-docker`.
@@ -19,7 +19,7 @@ When running the command `nvidia-smi` inside the container, it show only the all
 
 ## Example
 
-Create an `ubuntu` based container on a machine containing a GeForce RTX 2080 Ti GPU with 11GB RAM. 
+Create an `ubuntu` based container on a machine containing a GeForce RTX 2080 Ti GPU with 11GB RAM.
 
 ``` console hl_lines="10"
 $ docker run -it --rm --gpus 1 ubuntu nvidia-smi
@@ -71,7 +71,7 @@ $ runai-docker run -it --rm --gpus 1 --gpu-memory 0.3 ubuntu nvidia-smi
 ```
 
 !!! Notes
-    * `nvidia-smi` shows the user as having only 30% of GPU memory (3296 MiB). 
+    * `nvidia-smi` shows the user as having only 30% of GPU memory (3296 MiB).
     * Attempting to allocate beyond that amount will result in an out-of-memory error.
 
-
+Similarly, one can pass an absolute amount of GPU memory. For example, passing `--gpu-memory 3g` would make the container accessible to 3GB of GPU memory.

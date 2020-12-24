@@ -28,10 +28,6 @@
      <lastmod>2020-12-24</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.run.ai/Administrator/Cluster-Setup/install-k8s/</loc>
-     <lastmod>2020-12-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/cluster-install/</loc>
      <lastmod>2020-12-24</lastmod>
      <changefreq>daily</changefreq>
@@ -41,6 +37,10 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/cluster-delete/</loc>
+     <lastmod>2020-12-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/Administrator/Cluster-Setup/install-k8s/</loc>
      <lastmod>2020-12-24</lastmod>
      <changefreq>daily</changefreq>
     </url><url>

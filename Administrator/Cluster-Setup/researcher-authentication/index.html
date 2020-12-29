@@ -3,11 +3,11 @@
     <span class=nt>auth-provider</span><span class=p>:</span>
       <span class=nt>config</span><span class=p>:</span>
         <span class=nt>auth-flow</span><span class=p>:</span> <span class="l l-Scalar l-Scalar-Plain">cli</span>
-        <span class=nt>auth0-realm</span><span class=p>:</span> <span class="l l-Scalar l-Scalar-Plain">&lt;REALM&gt;</span>
+        <span class=nt>realm</span><span class=p>:</span> <span class="l l-Scalar l-Scalar-Plain">&lt;REALM&gt;</span>
         <span class=nt>client-id</span><span class=p>:</span> <span class="l l-Scalar l-Scalar-Plain">&lt;CLIENT_ID&gt;</span>
         <span class=nt>idp-issuer-url</span><span class=p>:</span> <span class="l l-Scalar l-Scalar-Plain">https://runai-prod.auth0.com/</span>
       <span class=nt>name</span><span class=p>:</span> <span class="l l-Scalar l-Scalar-Plain">oidc</span>
-</code></pre></div> <p>Where <code>&lt;USER_NAME&gt;</code> is an arbitrary name which is also referred to under <code>contexts | context | user</code> in the same file.</p> <ul> <li>Distribute modified certificate to Researchers. </li> <li>On Researchers machine, install <a href=https://github.com/int128/kubelogin target=_blank>kubelogin</a>. Depending on the installation method, you may need to add the kubelogin installation directory to your <code>PATH</code>.</li> </ul> <h2 id=server-side>Server-Side<a class=headerlink href=#server-side title="Permanent link">&para;</a></h2> <p>Locate the Kubernetes API Server configuration file. The file's location may defer between different Kubernetes distributions. The default location is <code>/etc/kubernetes/manifests/kube-apiserver.yaml</code></p> <p>Add the following: </p> <div class=codehilite><pre><span></span><code> <span class=nt>spec</span><span class=p>:</span>
+</code></pre></div> <p>Where <code>&lt;USER_NAME&gt;</code> is an arbitrary name which is also referred to under <code>contexts | context | user</code> in the same file.</p> <p>You must distribute the modified certificate to Researchers. </p> <h2 id=server-side>Server-Side<a class=headerlink href=#server-side title="Permanent link">&para;</a></h2> <p>Locate the Kubernetes API Server configuration file. The file's location may defer between different Kubernetes distributions. The default location is <code>/etc/kubernetes/manifests/kube-apiserver.yaml</code></p> <p>Add the following: </p> <div class=codehilite><pre><span></span><code> <span class=nt>spec</span><span class=p>:</span>
    <span class=nt>containers</span><span class=p>:</span>
    <span class="p p-Indicator">-</span> <span class=nt>command</span><span class=p>:</span>
      <span class="l l-Scalar l-Scalar-Plain">...</span>

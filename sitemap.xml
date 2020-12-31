@@ -128,15 +128,19 @@
      <lastmod>2020-12-31</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.run.ai/Administrator/tools/launch-job-via-yaml/</loc>
-     <lastmod>2020-12-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://docs.run.ai/Administrator/tools/Launch-Workloads-using-Rancher-User-Interface/</loc>
      <lastmod>2020-12-31</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.run.ai/Administrator/tools/airflow-integration/</loc>
+     <loc>https://docs.run.ai/Administrator/integrations/airflow-integration/</loc>
+     <lastmod>2020-12-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/Administrator/integrations/launch-job-via-yaml/</loc>
+     <lastmod>2020-12-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/Administrator/integrations/researcher-api-reference/</loc>
      <lastmod>2020-12-31</lastmod>
      <changefreq>daily</changefreq>
     </url><url>

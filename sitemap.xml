@@ -132,22 +132,6 @@
      <lastmod>2020-12-31</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.run.ai/Administrator/integrations/airflow-integration/</loc>
-     <lastmod>2020-12-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://docs.run.ai/Administrator/integrations/launch-job-via-yaml/</loc>
-     <lastmod>2020-12-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://docs.run.ai/Administrator/integrations/launch-job-via-kubernetes-api/</loc>
-     <lastmod>2020-12-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://docs.run.ai/Administrator/integrations/researcher-api-reference/</loc>
-     <lastmod>2020-12-31</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://docs.run.ai/Researcher/overview-researcher/</loc>
      <lastmod>2020-12-31</lastmod>
      <changefreq>daily</changefreq>
@@ -329,6 +313,34 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/tools/dev-tensorboard/</loc>
+     <lastmod>2020-12-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/developer/researcher-rest-api/overview/</loc>
+     <lastmod>2020-12-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/developer/researcher-rest-api/rest-submit/</loc>
+     <lastmod>2020-12-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/developer/researcher-rest-api/rest-delete/</loc>
+     <lastmod>2020-12-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/developer/researcher-rest-api/rest-list/</loc>
+     <lastmod>2020-12-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/developer/k8s-api/launch-job-via-yaml/</loc>
+     <lastmod>2020-12-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/developer/k8s-api/launch-job-via-kubernetes-api/</loc>
+     <lastmod>2020-12-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/developer/integrations/airflow-integration/</loc>
      <lastmod>2020-12-31</lastmod>
      <changefreq>daily</changefreq>
     </url>

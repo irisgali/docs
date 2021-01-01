@@ -1,347 +1,351 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://docs.run.ai/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/home/components/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/home/whats-new/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/overview-administrator/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/cluster-setup-intro/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/cluster-prerequisites/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/single-node-install/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/cluster-install/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/cluster-upgrade/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/cluster-delete/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/install-k8s/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/cluster-troubleshooting/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/allow-external-access-to-containers/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/proxy-server/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/researcher-authentication/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/non-root-containers/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/kubernetes-config-best-practices/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/node-downtime/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/node-roles/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Cluster-Setup/cli-admin-install/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Researcher-Setup/researcher-setup-intro/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Researcher-Setup/cli-install/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Researcher-Setup/cli-troubleshooting/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Researcher-Setup/docker-registry-config/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Researcher-Setup/docker-to-runai/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Researcher-Setup/limit-to-node-group/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Researcher-Setup/use-secrets/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Researcher-Setup/template-config/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Admin-User-Interface-Setup/Adding-Updating-and-Deleting-Admin-UI-Users/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Admin-User-Interface-Setup/Working-with-Projects/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Admin-User-Interface-Setup/Working-with-Departments/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/Presentations/Administrator-Onboarding-Presentation/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Administrator/tools/Launch-Workloads-using-Rancher-User-Interface/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/overview-researcher/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Walkthroughs/Run-AI-Walkthroughs/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Walkthroughs/walkthrough-train/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Walkthroughs/walkthrough-build/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Walkthroughs/walkthrough-build-ports/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Walkthroughs/walkthrough-fractions/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Walkthroughs/walkthrough-distributed-training/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Walkthroughs/walkthrough-hpo/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Walkthroughs/walkthrough-overquota/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Walkthroughs/walkthrough-queue-fairness/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Walkthroughs/walkthrough-elasticity/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/Introduction/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-attach/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-bash/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-cluster/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-config/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-delete/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-describe/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-exec/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-list/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-logs/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-project/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-submit/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-submit-mpi/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-template/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-top-node/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-update/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-version/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/best-practices/From-Bare-Metal-to-using-Docker-Images/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/best-practices/convert-to-unattended/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/best-practices/Saving-Deep-Learning-Checkpoints/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/best-practices/env-variables/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Scheduling/Allocation-of-CPU-and-Memory/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Scheduling/The-Run-AI-Scheduler/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Scheduling/Job-Statuses/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Scheduling/auto-delete-jobs/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/researcher-library/researcher-library-overview/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/researcher-library/rl-elasticity/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/researcher-library/rl-reporting/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/researcher-library/rl-hpo-support/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/Presentations/Researcher-Onboarding-Presentation/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/tools/dev-vscode/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/tools/dev-pycharm/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/tools/dev-x11forward-pycharm/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/tools/dev-jupyter/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/tools/dev-tensorboard/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/developer/overview-developer/</loc>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/developer/researcher-rest-api/overview/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/developer/researcher-rest-api/rest-submit/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/developer/researcher-rest-api/rest-delete/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/developer/researcher-rest-api/rest-list/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/developer/k8s-api/launch-job-via-yaml/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/developer/k8s-api/launch-job-via-kubernetes-api/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/developer/integrations/airflow-integration/</loc>
-     <lastmod>2020-12-31</lastmod>
+     <lastmod>2021-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -332,7 +332,11 @@
      <lastmod>2021-01-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.run.ai/developer/researcher-rest-api/rest-list/</loc>
+     <loc>https://docs.run.ai/developer/researcher-rest-api/rest-list-jobs/</loc>
+     <lastmod>2021-01-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/developer/researcher-rest-api/rest-list-projects/</loc>
      <lastmod>2021-01-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>

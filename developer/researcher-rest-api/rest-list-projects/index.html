@@ -2,39 +2,36 @@
 <span class=err>    &quot;data&quot;: Array&lt;Project&gt;</span>
 <span class=err>}</span>
 </code></pre></div> <p>Project:</p> <div class=codehilite><pre><span></span><code><span class=p>{</span>
-    <span class=nt>&quot;id&quot;</span><span class=p>:</span> <span class=s2>&quot;&lt;Project ID&gt;&quot;</span><span class=p>,</span>
     <span class=nt>&quot;name&quot;</span><span class=p>:</span> <span class=s2>&quot;&lt;Project Name&gt;&quot;</span><span class=p>,</span>
     <span class=nt>&quot;createdAt&quot;</span><span class=p>:</span> <span class=s2>&quot;&lt;Project creation time&gt;&quot;</span><span class=p>,</span>
     <span class=nt>&quot;deservedGpus&quot;</span><span class=p>:</span> <span class=s2>&quot;&lt;GPUs&gt;&quot;</span><span class=p>,</span>
-    <span class=nt>&quot;clusterUuid&quot;</span><span class=p>:</span> <span class=s2>&quot;&quot;</span><span class=p>,</span>
     <span class=nt>&quot;interactiveJobTimeLimitSecs&quot;</span><span class=p>:</span> <span class=s2>&quot;&lt;TTL for Interactive Jobs&gt;&quot;</span><span class=p>,</span>
     <span class=nt>&quot;trainNodeAffinity&quot;</span><span class=p>:</span> <span class=s2>&quot;Array&lt;Affinity Group&gt;&quot;</span><span class=p>,</span>
     <span class=nt>&quot;interactiveNodeAffinity&quot;</span><span class=p>:</span> <span class=s2>&quot;Array&lt;Affinity Group&gt;&quot;</span><span class=p>,</span>
     <span class=nt>&quot;departmentName&quot;</span><span class=p>:</span> <span class=s2>&quot;default&quot;</span>
 <span class=p>}</span>
-</code></pre></div> <ul> <li><code>deservedGpus</code> GPU <em>deserved</em> quota for this project.</li> <li><code>'createdAt</code> Project Creation time in a UNIX timestamp format (in milliseconds).</li> <li><code>trainNodeAffinity</code> Scheduler training Jobs only on these node groups.</li> <li><code>interactiveNodeAffinity</code> - Scheduler interactive Jobs only on these node groups.</li> </ul> <p>For more information see <a href=../../../Administrator/Admin-User-Interface-Setup/Working-with-Projects/ >Working with Projects</a>.</p> <h2 id=example>Example<a class=headerlink href=#example title="Permanent link">&para;</a></h2> <p>Request:</p> <div class=codehilite><pre><span></span><code>curl --location --request GET <span class=s1>&#39;http://www.example.com/api/project&#39;</span> 
+</code></pre></div> <ul> <li><code>deservedGpus</code> GPU <em>deserved</em> quota for this project.</li> <li><code>'createdAt</code> Project Creation time in a UNIX timestamp format (in milliseconds).</li> <li><code>trainNodeAffinity</code> Scheduler training Jobs only on these node groups.</li> <li><code>interactiveNodeAffinity</code> - Scheduler interactive Jobs only on these node groups.</li> </ul> <p>For more information see <a href=../../../Administrator/Admin-User-Interface-Setup/Working-with-Projects/ >Working with Projects</a>.</p> <h2 id=example>Example<a class=headerlink href=#example title="Permanent link">&para;</a></h2> <p>Request:</p> <div class=codehilite><pre><span></span><code>curl --location --request GET <span class=s1>&#39;http://www.example.com/api/v1/projects&#39;</span> 
 </code></pre></div> <p>Response:</p> <div class=codehilite><pre><span></span><code><span class=p>{</span>
     <span class=nt>&quot;data&quot;</span><span class=p>:</span> <span class=p>[</span>
         <span class=p>{</span>
-            <span class=nt>&quot;id&quot;</span><span class=p>:</span> <span class=s2>&quot;team-a&quot;</span><span class=p>,</span>
             <span class=nt>&quot;name&quot;</span><span class=p>:</span> <span class=s2>&quot;team-a&quot;</span><span class=p>,</span>
             <span class=nt>&quot;createdAt&quot;</span><span class=p>:</span> <span class=mi>1609183432000</span><span class=p>,</span>
             <span class=nt>&quot;deservedGpus&quot;</span><span class=p>:</span> <span class=mi>2</span><span class=p>,</span>
-            <span class=nt>&quot;clusterUuid&quot;</span><span class=p>:</span> <span class=s2>&quot;&quot;</span><span class=p>,</span>
             <span class=nt>&quot;interactiveJobTimeLimitSecs&quot;</span><span class=p>:</span> <span class=mi>0</span><span class=p>,</span>
-            <span class=nt>&quot;trainNodeAffinity&quot;</span><span class=p>:</span> <span class=s2>&quot;none&quot;</span><span class=p>,</span>
-            <span class=nt>&quot;interactiveNodeAffinity&quot;</span><span class=p>:</span> <span class=s2>&quot;none&quot;</span><span class=p>,</span>
+            <span class=nt>&quot;trainNodeAffinity&quot;</span><span class=p>:</span> <span class=kc>null</span><span class=p>,</span>
+            <span class=nt>&quot;interactiveNodeAffinity&quot;</span><span class=p>:</span> <span class=kc>null</span><span class=p>,</span>
             <span class=nt>&quot;departmentName&quot;</span><span class=p>:</span> <span class=s2>&quot;default&quot;</span>
         <span class=p>},</span>
         <span class=p>{</span>
-            <span class=nt>&quot;id&quot;</span><span class=p>:</span> <span class=s2>&quot;team-b&quot;</span><span class=p>,</span>
             <span class=nt>&quot;name&quot;</span><span class=p>:</span> <span class=s2>&quot;team-b&quot;</span><span class=p>,</span>
             <span class=nt>&quot;createdAt&quot;</span><span class=p>:</span> <span class=mi>1609183432000</span><span class=p>,</span>
             <span class=nt>&quot;deservedGpus&quot;</span><span class=p>:</span> <span class=mi>2</span><span class=p>,</span>
-            <span class=nt>&quot;clusterUuid&quot;</span><span class=p>:</span> <span class=s2>&quot;&quot;</span><span class=p>,</span>
             <span class=nt>&quot;interactiveJobTimeLimitSecs&quot;</span><span class=p>:</span> <span class=mi>0</span><span class=p>,</span>
-            <span class=nt>&quot;trainNodeAffinity&quot;</span><span class=p>:</span> <span class=s2>&quot;gpu2,gpu1&quot;</span><span class=p>,</span>
-            <span class=nt>&quot;interactiveNodeAffinity&quot;</span><span class=p>:</span> <span class=s2>&quot;none&quot;</span><span class=p>,</span>
+            <span class=nt>&quot;trainNodeAffinity&quot;</span><span class=p>:</span> <span class=p>[</span>
+                <span class=s2>&quot;gpu2&quot;</span><span class=p>,</span>
+                <span class=s2>&quot;gpu1&quot;</span>
+            <span class=p>],</span>
+            <span class=nt>&quot;interactiveNodeAffinity&quot;</span><span class=p>:</span> <span class=kc>null</span><span class=p>,</span>
             <span class=nt>&quot;departmentName&quot;</span><span class=p>:</span> <span class=s2>&quot;default&quot;</span>
         <span class=p>}</span>
     <span class=p>]</span>

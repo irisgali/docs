@@ -21,20 +21,20 @@
         <span class=nt>&quot;memory&quot;</span>  <span class=p>:</span> <span class=s2>&quot;string&quot;</span><span class=p>,</span> 
         <span class=nt>&quot;memoryLimit&quot;</span>  <span class=p>:</span> <span class=s2>&quot;string&quot;</span><span class=p>,</span>     
         <span class=nt>&quot;largeShm&quot;</span>  <span class=p>:</span> <span class=s2>&quot;boolean&quot;</span><span class=p>,</span> 
-            <span class=nt>&quot;pvc&quot;</span> <span class=p>:</span> <span class=p>[</span>
-                <span class=p>{</span>
-                    <span class=nt>&quot;storageClass&quot;</span> <span class=p>:</span> <span class=s2>&quot;my-storage1&quot;</span><span class=p>,</span>
-                    <span class=nt>&quot;size&quot;</span> <span class=p>:</span>  <span class=s2>&quot;3GB&quot;</span><span class=p>,</span>
-                    <span class=nt>&quot;path&quot;</span> <span class=p>:</span>   <span class=s2>&quot;/tmp/john&quot;</span><span class=p>,</span>
-                    <span class=nt>&quot;readOnly&quot;</span> <span class=p>:</span>  <span class=kc>true</span>
-                <span class=p>},</span>
-                <span class=p>{</span>
-                    <span class=nt>&quot;storageClass&quot;</span> <span class=p>:</span> <span class=s2>&quot;my-storage2&quot;</span><span class=p>,</span>
-                    <span class=nt>&quot;size&quot;</span> <span class=p>:</span>  <span class=s2>&quot;4GB&quot;</span><span class=p>,</span>
-                    <span class=nt>&quot;path&quot;</span> <span class=p>:</span>   <span class=s2>&quot;/tmp/jill&quot;</span><span class=p>,</span>
-                    <span class=nt>&quot;readOnly&quot;</span> <span class=p>:</span>  <span class=kc>false</span>        
-                <span class=p>}</span>
-            <span class=p>],</span>
+        <span class=nt>&quot;pvc&quot;</span> <span class=p>:</span> <span class=p>[</span>
+            <span class=p>{</span>
+                <span class=nt>&quot;storageClass&quot;</span> <span class=p>:</span> <span class=s2>&quot;my-storage1&quot;</span><span class=p>,</span>
+                <span class=nt>&quot;size&quot;</span> <span class=p>:</span>  <span class=s2>&quot;3GB&quot;</span><span class=p>,</span>
+                <span class=nt>&quot;path&quot;</span> <span class=p>:</span>   <span class=s2>&quot;/tmp/john&quot;</span><span class=p>,</span>
+                <span class=nt>&quot;readOnly&quot;</span> <span class=p>:</span>  <span class=kc>true</span>
+            <span class=p>},</span>
+            <span class=p>{</span>
+                <span class=nt>&quot;storageClass&quot;</span> <span class=p>:</span> <span class=s2>&quot;my-storage2&quot;</span><span class=p>,</span>
+                <span class=nt>&quot;size&quot;</span> <span class=p>:</span>  <span class=s2>&quot;4GB&quot;</span><span class=p>,</span>
+                <span class=nt>&quot;path&quot;</span> <span class=p>:</span>   <span class=s2>&quot;/tmp/jill&quot;</span><span class=p>,</span>
+                <span class=nt>&quot;readOnly&quot;</span> <span class=p>:</span>  <span class=kc>false</span>        
+            <span class=p>}</span>
+        <span class=p>],</span>
         <span class=nt>&quot;volume&quot;</span><span class=p>:</span> <span class=p>{</span>
             <span class=nt>&quot;/raid/public/john/data&quot;</span><span class=p>:</span> <span class=s2>&quot;/root/data&quot;</span><span class=p>,</span>
             <span class=nt>&quot;/raid/public/john/code&quot;</span><span class=p>:</span> <span class=s2>&quot;/root/code&quot;</span>
@@ -71,7 +71,7 @@
 <span class=s1>        &quot;gpu&quot;: 1</span>
 <span class=s1>      }</span>
 <span class=s1>    }&#39;</span>
-</code></pre></div> <hr> <div class=md-source-date> <small> Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 3, 2021</span> </small> </div> </article> </div> </div> </main> </div> <script src=../../../assets/javascripts/vendor.6a3d08fc.min.js></script> <script src=../../../assets/javascripts/bundle.71201edf.min.js></script><script id=__lang type=application/json>{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script> <script>
+</code></pre></div> <hr> <div class=md-source-date> <small> Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 4, 2021</span> </small> </div> </article> </div> </div> </main> </div> <script src=../../../assets/javascripts/vendor.6a3d08fc.min.js></script> <script src=../../../assets/javascripts/bundle.71201edf.min.js></script><script id=__lang type=application/json>{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script> <script>
         app = initialize({
           base: "../../..",
           features: ['navigation.tabs'],

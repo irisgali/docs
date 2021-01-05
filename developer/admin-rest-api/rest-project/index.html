@@ -142,8 +142,7 @@
   -H <span class=s1>&#39;authorization: Bearer &lt;bearer&gt;&#39;</span> 
 </code></pre></div> <p><strong>Example Response</strong></p> <div class=codehilite><pre><span></span><code><span class=err>Project with id 389 is deleted</span>
 </code></pre></div> <h2 id=get-list-of-projects>Get List of Projects<a class=headerlink href=#get-list-of-projects title="Permanent link">&para;</a></h2> <p><code>GET https://app.run.ai/v1/k8s/clusters/{cluster_uuid}/projects</code></p> <p><strong>Example</strong></p> <div class=codehilite><pre><span></span><code>curl <span class=s1>&#39;https://app.run.ai/v1/k8s/clusters/9e110487-6973-4058-9c95-f07f26b845a8/projects&#39;</span> <span class=se>\</span>
-  -H <span class=s1>&#39;authorization: Bearer &lt;bearer&gt;&#39;</span> <span class=se>\</span>
-  -H <span class=s1>&#39;content-type: application/json&#39;</span> 
+  -H <span class=s1>&#39;authorization: Bearer &lt;bearer&gt;&#39;</span> 
 </code></pre></div> <p><strong>Example Response</strong></p> <div class=codehilite><pre><span></span><code><span class=p>[</span>
   <span class=p>{</span>
     <span class=nt>&quot;clusterUuid&quot;</span><span class=p>:</span> <span class=s2>&quot;9e110487-6973-4058-9c95-f07f26b845a8&quot;</span><span class=p>,</span>

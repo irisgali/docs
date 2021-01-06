@@ -26,48 +26,48 @@
 </code></pre></div> </li> <li> <p>We named the Job <em>hpo1</em></p> </li> <li>The Job is assigned to <em>team-a</em></li> <li>The Job will be complete when 12 pods will run (<em>--completions 12</em>), each allocated with a single GPU (<em>-g 1</em>)</li> <li>At most, there will be 3 pods running concurrently (<em>--parallelism 3</em>)</li> <li>The Job is based on a sample docker image <code>gcr.io/run-ai-demo/quickstart-hpo</code>. The image contains a startup script that selects a set of hyperparameters and then uses them, as described above. </li> <li>The command maps a shared volume <code>/nfs/john/hpo</code> to a directory in the container <code>/nfs</code>. The running pods will use the directory to sync hyperparameters and save results.</li> </ul> <p>Follow up on the Job's status by running:</p> <div class=codehilite><pre><span></span><code><span class=err>    runai list jobs</span>
 </code></pre></div> <p>The result:</p> <p><img alt=mceclip11.png src=../img/hpo1.png></p> <p>Follow up on the Job's pods by running:</p> <div class=codehilite><pre><span></span><code><span class=err>    runai describe job hpo1</span>
 </code></pre></div> <p>You will see 3 running pods currently executing:</p> <p><img alt=mceclip12.png src=../img/hpo2.png></p> <p>Once the 3 pods are done, they will be replaced by new ones from the 12 <em>completions</em>. This process will continue until all 12 have run.</p> <p>You can also submit Jobs on another Project until only 2 GPUs remain. This will preempt 1 pod and will henceforth limit the HPO Job to run on 2 pods only. Preempted pods will be picked up and ran later.</p> <p>You can see logs of specific pods by running :</p> <div class=codehilite><pre><span></span><code><span class=err>    runai logs hpo1 --pod &lt;POD-NAME&gt;</span>
-</code></pre></div> <p>where <code>&lt;&lt;POD-NAME&gt;&gt;</code> is a pod name as appears above in the <code>runai describe job hpo1</code> output </p> <p>The logs will contain a couple of lines worth noting:</p> <blockquote> <p>Picked HPO experiment #4</p> <p>...</p> <p>Using HPO directory /hpo</p> <p>Using configuration: {'batch_size': 32, 'lr': 0.001}</p> </blockquote> <h3 id=examine-the-results>Examine the Results<a class=headerlink href=#examine-the-results title="Permanent link">&para;</a></h3> <p>The Run:AI HPO library saves the experiment variations and the experiment results to a single file, making it easier to pick the best HPO run. The file can be found in the shared folder. Below is a snapshot of the file for two experiments with two epochs each:</p> <div class=codehilite><pre><span></span><code><span class=n>creationTime</span><span class=o>:</span> <span class=mi>24</span><span class=sr>/08/</span><span class=mi>2020</span> <span class=mi>08</span><span class=o>:</span><span class=mi>50</span><span class=o>:</span><span class=mi>06</span>
-<span class=n>experiments</span><span class=o>:</span>
-<span class=o>-</span> <span class=n>config</span><span class=o>:</span>
-    <span class=n>batch_size</span><span class=o>:</span> <span class=mi>32</span>
-    <span class=n>lr</span><span class=o>:</span> <span class=mi>1</span>
-  <span class=n>id</span><span class=o>:</span> <span class=mi>1</span>
-  <span class=n>modificationTime</span><span class=o>:</span> <span class=mi>24</span><span class=sr>/08/</span><span class=mi>2020</span> <span class=mi>08</span><span class=o>:</span><span class=mi>50</span><span class=o>:</span><span class=mi>06</span>
-  <span class=n>reports</span><span class=o>:</span>
-  <span class=o>-</span> <span class=n>epoch</span><span class=o>:</span> <span class=mi>0</span>
-    <span class=n>metrics</span><span class=o>:</span>
-      <span class=n>acc</span><span class=o>:</span> <span class=mf>0.09814</span>
-      <span class=n>loss</span><span class=o>:</span> <span class=mf>2.310984723968506</span>
-      <span class=n>val_acc</span><span class=o>:</span> <span class=mf>0.1</span>
-      <span class=n>val_loss</span><span class=o>:</span> <span class=mf>2.3098626373291014</span>
-    <span class=n>reportTime</span><span class=o>:</span> <span class=mi>24</span><span class=sr>/08/</span><span class=mi>2020</span> <span class=mi>08</span><span class=o>:</span><span class=mi>52</span><span class=o>:</span><span class=mi>11</span>
-  <span class=o>-</span> <span class=n>epoch</span><span class=o>:</span> <span class=mi>1</span>
-    <span class=n>metrics</span><span class=o>:</span>
-      <span class=n>acc</span><span class=o>:</span> <span class=mf>0.09914</span>
-      <span class=n>loss</span><span class=o>:</span> <span class=mf>2.30994320602417</span>
-      <span class=n>val_acc</span><span class=o>:</span> <span class=mf>0.1</span>
-      <span class=n>val_loss</span><span class=o>:</span> <span class=mf>2.3110838134765626</span>
-    <span class=n>reportTime</span><span class=o>:</span> <span class=mi>24</span><span class=sr>/08/</span><span class=mi>2020</span> <span class=mi>08</span><span class=o>:</span><span class=mi>54</span><span class=o>:</span><span class=mi>10</span>
-<span class=o>-</span> <span class=n>config</span><span class=o>:</span>
-    <span class=n>batch_size</span><span class=o>:</span> <span class=mi>32</span>
-    <span class=n>lr</span><span class=o>:</span> <span class=mf>0.1</span>
-  <span class=n>id</span><span class=o>:</span> <span class=mi>2</span>
-  <span class=n>modificationTime</span><span class=o>:</span> <span class=mi>24</span><span class=sr>/08/</span><span class=mi>2020</span> <span class=mi>08</span><span class=o>:</span><span class=mi>50</span><span class=o>:</span><span class=mi>36</span>
-  <span class=n>reports</span><span class=o>:</span>
-  <span class=o>-</span> <span class=n>epoch</span><span class=o>:</span> <span class=mi>0</span>
-    <span class=n>metrics</span><span class=o>:</span>
-      <span class=n>acc</span><span class=o>:</span> <span class=mf>0.11012</span>
-      <span class=n>loss</span><span class=o>:</span> <span class=mf>2.2979678358459474</span>
-      <span class=n>val_acc</span><span class=o>:</span> <span class=mf>0.1667</span>
-      <span class=n>val_loss</span><span class=o>:</span> <span class=mf>2.268467852783203</span>
-    <span class=n>reportTime</span><span class=o>:</span> <span class=mi>24</span><span class=sr>/08/</span><span class=mi>2020</span> <span class=mi>08</span><span class=o>:</span><span class=mi>52</span><span class=o>:</span><span class=mi>44</span>
-  <span class=o>-</span> <span class=n>epoch</span><span class=o>:</span> <span class=mi>1</span>
-    <span class=n>metrics</span><span class=o>:</span>
-      <span class=n>acc</span><span class=o>:</span> <span class=mf>0.2047</span>
-      <span class=n>loss</span><span class=o>:</span> <span class=mf>2.0894255745697023</span>
-      <span class=n>val_acc</span><span class=o>:</span> <span class=mf>0.2833</span>
-      <span class=n>val_loss</span><span class=o>:</span> <span class=mf>1.8615504817962647</span>
-    <span class=n>reportTime</span><span class=o>:</span> <span class=mi>24</span><span class=sr>/08/</span><span class=mi>2020</span> <span class=mi>08</span><span class=o>:</span><span class=mi>54</span><span class=o>:</span><span class=mi>45</span>
+</code></pre></div> <p>where <code>&lt;&lt;POD-NAME&gt;&gt;</code> is a pod name as appears above in the <code>runai describe job hpo1</code> output </p> <p>The logs will contain a couple of lines worth noting:</p> <blockquote> <p>Picked HPO experiment #4</p> <p>...</p> <p>Using HPO directory /hpo</p> <p>Using configuration: {'batch_size': 32, 'lr': 0.001}</p> </blockquote> <h3 id=examine-the-results>Examine the Results<a class=headerlink href=#examine-the-results title="Permanent link">&para;</a></h3> <p>The Run:AI HPO library saves the experiment variations and the experiment results to a single file, making it easier to pick the best HPO run. The file can be found in the shared folder. Below is a snapshot of the file for two experiments with two epochs each:</p> <div class=highlight><pre><span></span><code>creationTime: 24/08/2020 08:50:06
+experiments:
+- config:
+    batch_size: 32
+    lr: 1
+  id: 1
+  modificationTime: 24/08/2020 08:50:06
+  reports:
+  - epoch: 0
+    metrics:
+      acc: 0.09814
+      loss: 2.310984723968506
+      val_acc: 0.1
+      val_loss: 2.3098626373291014
+    reportTime: 24/08/2020 08:52:11
+  - epoch: 1
+    metrics:
+      acc: 0.09914
+      loss: 2.30994320602417
+      val_acc: 0.1
+      val_loss: 2.3110838134765626
+    reportTime: 24/08/2020 08:54:10
+- config:
+    batch_size: 32
+    lr: 0.1
+  id: 2
+  modificationTime: 24/08/2020 08:50:36
+  reports:
+  - epoch: 0
+    metrics:
+      acc: 0.11012
+      loss: 2.2979678358459474
+      val_acc: 0.1667
+      val_loss: 2.268467852783203
+    reportTime: 24/08/2020 08:52:44
+  - epoch: 1
+    metrics:
+      acc: 0.2047
+      loss: 2.0894255745697023
+      val_acc: 0.2833
+      val_loss: 1.8615504817962647
+    reportTime: 24/08/2020 08:54:45
 </code></pre></div> <p>Finally, you can delete the HPO Job by running:</p> <div class=codehilite><pre><span></span><code><span class=err>    runai delete hpo1</span>
 </code></pre></div> <h2 id=see-also>See Also<a class=headerlink href=#see-also title="Permanent link">&para;</a></h2> <p>For further information on the Run:AI HPO support library see:</p> <ul> <li><a href=../../researcher-library/rl-hpo-support/ >The Run:AI HPO Support Library</a></li> <li>Sample code in <a href=https://github.com/run-ai/docs/tree/master/quickstart/hpo target=_blank>Github</a></li> </ul> <hr> <div class=md-source-date> <small> Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 3, 2021</span> </small> </div> </article> </div> </div> </main> </div> <script src=../../../assets/javascripts/vendor.6a3d08fc.min.js></script> <script src=../../../assets/javascripts/bundle.71201edf.min.js></script><script id=__lang type=application/json>{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script> <script>
         app = initialize({

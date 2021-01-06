@@ -45,9 +45,9 @@ sudo swapoff -a
 </code></pre></div> <div class="admonition note"> <p class=admonition-title>Note</p> <p>The default token expires after 24 hours. If the token has expired, go to the master node and run <code>sudo kubeadm token create --print-join-command</code>. This will produce an up to date join command.</p> </div> <p>Return to the master node. Re-run <code>kubectl get nodes</code> and verify that the new node is ready.</p> <h2 id=permanently-disable-swap-on-all-nodes>Permanently disable swap on all nodes<a class=headerlink href=#permanently-disable-swap-on-all-nodes title="Permanent link">&para;</a></h2> <ol> <li>Edit the file /etc/fstab</li> <li>Comment out any swap entry if such exists</li> </ol> <hr> <div class=md-source-date> <small> Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 28, 2020</span> </small> </div> </article> </div> </div> </main> </div> <script src=../../../assets/javascripts/vendor.6a3d08fc.min.js></script> <script src=../../../assets/javascripts/bundle.71201edf.min.js></script><script id=__lang type=application/json>{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script> <script>
         app = initialize({
           base: "../../..",
-          features: ['navigation.tabs'],
+          features: ['navigation.tabs', 'navigation.instant'],
           search: Object.assign({
             worker: "../../../assets/javascripts/worker/search.4ac00218.min.js"
           }, typeof search !== "undefined" && search)
         })
-      </script> </body> </html>
+      </script> <!-- Start of Swagger custom style. Should be before /body which is why its in scripts --> <!-- <link rel="stylesheet" href="../../../stylesheets/theme-outline   .css" /> --> <!-- End of  Swagger custom style --> </body> </html>

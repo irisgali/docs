@@ -321,11 +321,10 @@ roleRef:
 ---
 # A Kubernetes Admission Controller
 # Responsible for the management of Job submission policies and the validation of the input provided to submit the Job
-# *** Will be separated to reader and writer ClusterRoles. Writer role will be binded to the runai namespace only *** 
 kind: ClusterRole
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: runai-admission-controller
+  name: runai-admission-controller-ro
 rules:
   - apiGroups:
       - ""
@@ -355,18 +354,44 @@ rules:
       - replicasets/finalizers
       - pods/finalizers
     verbs:
-      - create
       - get
-      - update
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
-  name: runai-admission-controller
+  name: runai-admission-controller-ro
 roleRef:
   kind: ClusterRole
   apiGroup: rbac.authorization.k8s.io
   name: runai-admission-controller
+subjects:
+  - kind: ServiceAccount
+    name: runai-admission-controller
+    namespace: runai
+---
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  namespace: runai
+  name: runai-admission-controller-rw
+rules:
+  - apiGroups:
+      - ""
+    resources:
+      - configmaps
+    verbs:
+      - create
+      - update
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  namespace: runai
+  name: runai-admission-controller-rw
+roleRef:
+  kind: Role
+  apiGroup: rbac.authorization.k8s.io
+  name: runai-admission-controller-rw
 subjects:
   - kind: ServiceAccount
     name: runai-admission-controller

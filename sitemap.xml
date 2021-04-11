@@ -204,10 +204,6 @@
      <lastmod>2021-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.run.ai/Researcher/cli-reference/runai-cluster/</loc>
-     <lastmod>2021-04-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-config/</loc>
      <lastmod>2021-04-11</lastmod>
      <changefreq>daily</changefreq>
@@ -232,10 +228,6 @@
      <lastmod>2021-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.run.ai/Researcher/cli-reference/runai-project/</loc>
-     <lastmod>2021-04-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-submit/</loc>
      <lastmod>2021-04-11</lastmod>
      <changefreq>daily</changefreq>
@@ -257,6 +249,10 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/Researcher/cli-reference/runai-version/</loc>
+     <lastmod>2021-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/Researcher/cli-reference/runai-whoami/</loc>
      <lastmod>2021-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url><url>

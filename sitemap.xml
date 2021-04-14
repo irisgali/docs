@@ -144,7 +144,11 @@
      <lastmod>2021-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://docs.run.ai/Administrator/tools/Launch-Workloads-using-Rancher-User-Interface/</loc>
+     <loc>https://docs.run.ai/Administrator/integration/jupyterhub/</loc>
+     <lastmod>2021-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.run.ai/Administrator/integration/airflow/</loc>
      <lastmod>2021-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -385,10 +389,6 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://docs.run.ai/developer/admin-rest-api/clusters/</loc>
-     <lastmod>2021-04-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://docs.run.ai/developer/integrations/airflow-integration/</loc>
      <lastmod>2021-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url><url>

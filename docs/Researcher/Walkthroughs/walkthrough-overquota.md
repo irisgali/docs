@@ -57,7 +57,7 @@ Run:
 
 You have __two__ Jobs that are running on the first node and __one__ Job that is running alone the second node. 
 
-Choose one of the two Job from the full node and delete it:
+Choose one of the two Jobs from the full node and delete it:
 
     runai delete <job-name> -p <project>
 
